@@ -1,0 +1,10 @@
+postgres_dc = {
+  profile = "slick.jdbc.PostgresProfile$"
+  db = {
+    driver = "org.postgresql.Driver",
+    url = "<database_url>",
+    user = "<username>",
+    password = "<password>",
+    connectionPool = disabled
+  }
+}

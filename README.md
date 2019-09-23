@@ -38,7 +38,7 @@ The tree below reflects how unit tests and integration tests are separated by di
     |_it   // Here, you add new tests which load application context
     |                  // and connect to datasources deployed on staging.
     |
-    |_test             // Here, you add pure unit tests which cover one or several specific components and have no dependencies on infrastructure.
+    |_test             // Here, you add pure unit tests which cover one or several specific cromwell.pipeline.components and have no dependencies on infrastructure.
 
 ```
 
